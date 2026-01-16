@@ -1,11 +1,11 @@
 import React from 'react'
 import UserMenu from './UserMenu'
-function Header({ user }) {
+function Header() {
   return (
     <nav>
       <h1>Welcome back!</h1>
       
-      <UserMenu user={user} />
+      <UserMenu  />
     </nav>
   );
 }

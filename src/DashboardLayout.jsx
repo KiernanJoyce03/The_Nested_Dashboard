@@ -5,13 +5,13 @@ import MainContent from './MainContent'
 
 
 
-function DashboardLayout({ user }) {
+function DashboardLayout() {
   return (
     <div className="layout">
       <Sidebar />
       <div className="content">
         
-        <Header user={user} />
+        <Header  />
         <MainContent />
       </div>
     </div>

@@ -1,11 +1,11 @@
 import React from 'react'
 import Avatar from './Avatar'
-function UserMenu({ user }) {
+function UserMenu() {
   return (
     <div className="menu">
       <span>Settings</span>
       
-      <Avatar user={user} />
+      <Avatar  />
     </div>
   );
 }
