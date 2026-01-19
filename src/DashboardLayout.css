@@ -17,6 +17,9 @@
     background:#1a1a1a;
     height: 100vh;
     display: grid;
+    padding:10px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
     
 }
 

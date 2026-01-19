@@ -4,16 +4,17 @@
 
 
 .sidebar-button{
-    background-color: #242424;
+    background-color: #1a1a1a;
     height: 40px;
-    width: 120px;
-    text-align: center;
+    width: 100px;
+    
+    text-align: left;
     font-size: 12px;
     justify-content: center;
     align-items: center;
 }
 .sidebar-button:hover{
-    background-color: #1a1a1a;
+    background-color: #242424;
     border-color: #242424;
     
 }
