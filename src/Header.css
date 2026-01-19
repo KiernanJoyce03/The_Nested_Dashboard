@@ -1,0 +1,11 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-bottom: 1px solid #e5e5e5;
+  background: rgb(131, 10, 10);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}

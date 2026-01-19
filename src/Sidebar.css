@@ -1,0 +1,19 @@
+
+    
+
+
+
+.sidebar-button{
+    background-color: #242424;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-button:hover{
+    background-color: #1a1a1a;
+    border-color: #242424;
+    
+}

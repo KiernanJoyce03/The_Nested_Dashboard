@@ -1,12 +1,13 @@
 import React from 'react'
 import UserMenu from './UserMenu'
+import './Header.css'
 function Header() {
   return (
-    <nav>
+    <div className="header">
       <h1>Welcome back!</h1>
       
       <UserMenu  />
-    </nav>
+    </div>
   );
 }
 

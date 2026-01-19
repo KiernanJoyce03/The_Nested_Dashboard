@@ -2,17 +2,16 @@ import React from 'react'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import MainContent from './MainContent'
-
+import './DashboardLayout.css'
 
 
 function DashboardLayout() {
   return (
     <div className="layout">
-      <Sidebar />
+      <Header className="header" />
       <div className="content">
-        
-        <Header  />
-        <MainContent />
+        <Sidebar className="sidebar" />
+        <MainContent className="main-content" />
       </div>
     </div>
   );
