@@ -2,7 +2,7 @@
 .layout{
     display:grid;
     height: 100vh;
-    width: 10vw;
+    width: 100vw;
     grid-gap: 10px;
     grid-template-columns: 10vw 1fr;
     grid-template-rows: 60px 1fr;
@@ -27,10 +27,14 @@
     grid-area: header;
     position:fixed;
     padding: 10px;
-    width:90vw;
+    width:100wv;
     height:60px;
     left:220px;
+    right: 0px;
     background:#242424;
+    justify-content: stretch;
+    display: flex;
+    align-items: center;
 }   
 .main-content{
     grid-area: main;
